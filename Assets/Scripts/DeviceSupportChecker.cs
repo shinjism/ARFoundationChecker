@@ -54,15 +54,6 @@ public class DeviceSupportChecker : MonoBehaviour
         if (m_Session == null) return;
         if (m_Text == null) return;
 
-        if (m_Session.enabled)
-        {
-            m_Text.color = new Color(255f, 255f, 255f);
-        }
-        else
-        {
-            m_Text.color = new Color(255f, 0f, 0f);
-        }
-
         Sprite sprite = null;
 
         switch (ARSession.state)

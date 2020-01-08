@@ -40,6 +40,10 @@ ARKit対応のiOSデバイス、または、ARCore対応のAndroidデバイス�
 
 [@_shinjism](https://twitter.com/_shinjism)
 
+## References
+
+[公式ドキュメント](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@2.0/manual/index.html)
+
 ## License
 
 MIT

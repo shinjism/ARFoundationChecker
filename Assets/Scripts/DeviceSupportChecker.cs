@@ -53,47 +53,52 @@ public class DeviceSupportChecker : MonoBehaviour
     void Update()
     {
         if (m_Session == null) return;
-        if (m_Text == null) return;
 
+        string text = "";
         Sprite sprite = null;
 
         switch (ARSession.state)
         {
             case ARSessionState.None:
-                m_Text.text = "The AR System has not been initialized and availability is unknown.";
+                text = "The AR System has not been initialized and availability is unknown.";
                 sprite = m_Sprite_x;
                 break;
             case ARSessionState.Unsupported:
-                m_Text.text = "AR is not supported on the current device.";
+                text = "AR is not supported on the current device.";
                 sprite = m_Sprite_x;
                 break;
             case ARSessionState.CheckingAvailability:
-                m_Text.text = "The system is checking the availability of AR on the current device.";
+                text = "The system is checking the availability of AR on the current device.";
                 sprite = m_Sprite_exclamation;
                 break;
             case ARSessionState.NeedsInstall:
-                m_Text.text = "AR is supported on the current device, but requires an additional install.";
+                text = "AR is supported on the current device, but requires an additional install.";
                 sprite = m_Sprite_exclamation;
                 break;
             case ARSessionState.Installing:
-                m_Text.text = "AR software is being installed";
+                text = "AR software is being installed";
                 sprite = m_Sprite_exclamation;
                 break;
             case ARSessionState.Ready:
-                m_Text.text = "AR is supported and ready";
+                text = "AR is supported and ready";
                 sprite = m_Sprite_check;
                 break;
             case ARSessionState.SessionInitializing:
-                m_Text.text = "An AR session is initializing (i.e., starting up). This usually means AR is working but has not gathered enough information about the environment";
+                text = "An AR session is initializing (i.e., starting up). This usually means AR is working but has not gathered enough information about the environment";
                 sprite = m_Sprite_check;
                 break;
             case ARSessionState.SessionTracking:
-                m_Text.text = "An AR session is running and is tracking (i.e., the device is able to determine its position and orientation in the world).";
+                text = "An AR session is running and is tracking (i.e., the device is able to determine its position and orientation in the world).";
                 sprite = m_Sprite_check;
                 break;
         }
 
-        if (m_Image != null && sprite != null)
+        if (m_Text != null)
+        {
+            m_Text.text = text;
+        }
+
+        if (m_Image != null)
         {
             m_Image.sprite = sprite;
         }

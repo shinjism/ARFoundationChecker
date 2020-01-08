@@ -33,7 +33,7 @@ ARKit対応のiOSデバイス、または、ARCore対応のAndroidデバイス�
 
 - iOSの場合
    - Unityプロジェクトを開く -> Build Settings -> PlatformでiOSを選択 -> Build -> 生成されたXcodeプロジェクトを開く -> Run
-   - Signing情報はUnity、または、Xcodeで適宜設定
+   - Signing情報はUnity、または、Xcodeで適宜設定する
    - ARKit非対応デバイスは、XcodeでRunした時点にエラーとなる
 - Androidの場合
    - Unityプロジェクトを開く -> Build Settings -> PlatformでAndroidを選択 -> Build And Run

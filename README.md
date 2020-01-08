@@ -5,7 +5,8 @@ iOS/Androidデバイス上でAR Foundationのサポート状況やARセッショ
 ## Description
 
 ARKit対応のiOSデバイス、または、ARCore対応のAndroidデバイス上で、AR Foundationのサポート状況、ARソフトウェアのインストール状況、ARセッションの状況をチェックします。  
-検出した状況により次のメッセージを表示します（日本語訳はほぼ機械翻訳のままなのでご注意を）。
+
+検出した状況により次のメッセージを表示します(日本語訳はほぼ機械翻訳のままなのでご注意を)。
 
 1. The AR System has not been initialized and availability is unknown.  
 (ARシステムは初期化されておらず、使用できるかどうか不明です。)

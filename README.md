@@ -17,13 +17,13 @@ ARKit対応のiOSデバイス、または、ARCore対応のAndroidデバイス�
 4. AR is supported on the current device, but requires an additional install.  
 (ARはこのデバイスでサポートされていますが、追加のインストールが必要です。)
 5. AR software is being installed  
-(ARソフトウェアがインストールされています)
+(ARソフトウェアをインストールしています)
 6. AR is supported and ready  
-(ARはサポートされており、準備ができています)
+(ARはサポートされており、使用できる状態です)
 7. An AR session is initializing (i.e., starting up). This usually means AR is working but has not gathered enough information about the environment  
-(ARセッションが初期化中です(つまり、起動中)。これは通常、ARは機能していますが、環境に関する十分な情報が収集されていないことを意味します)
+(ARセッションは初期化中です(つまり、起動中)。これは通常、ARは機能しているものの、環境に関する十分な情報が収集されていないことを意味します)
 8. An AR session is running and is tracking (i.e., the device is able to determine its position and orientation in the world).  
-(ARセッションが実行されており、追跡中です(つまり、デバイスは世界での位置と方向を決定できます)。)
+(ARセッションが実行されており、トラッキング中です(つまり、デバイスは空間での位置と方向を決定できます)。)
 
 ## Screenshot
 
@@ -32,11 +32,19 @@ ARKit対応のiOSデバイス、または、ARCore対応のAndroidデバイス�
 ## Usage
 
 - iOSの場合
-   - Unityプロジェクトを開く -> Build Settings -> PlatformでiOSを選択 -> Build -> 生成されたXcodeプロジェクトを開く -> Run
+   - Unityプロジェクトを開く ->  
+Build Settings ->  
+Switch Platform (iOS) ->  
+Build ->  
+生成されたXcodeプロジェクトを開く ->  
+Run
    - Signing情報はUnity、または、Xcodeで適宜設定する
-   - ARKit非対応デバイスは、XcodeでRunした時点にエラーとなる
+   - ARKit非対応デバイスは、XcodeでRunした時点でエラーとなる
 - Androidの場合
-   - Unityプロジェクトを開く -> Build Settings -> PlatformでAndroidを選択 -> Build And Run
+   - Unityプロジェクトを開く ->  
+Build Settings ->  
+Switch Platform (Android) ->  
+Build And Run
 
 ## Requirement
 
@@ -51,7 +59,7 @@ ARKit対応のiOSデバイス、または、ARCore対応のAndroidデバイス�
 
 ## References
 
-[公式ドキュメント](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@2.0/manual/index.html)
+[AR Foundation 公式ドキュメント](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@2.0/manual/index.html)
 
 ## License
 

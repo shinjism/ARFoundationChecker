@@ -5,6 +5,7 @@ using UnityEngine.XR.ARFoundation;
 
 [RequireComponent(typeof(ARSession))]
 [RequireComponent(typeof(Text))]
+[RequireComponent(typeof(Sprite))]
 
 public class DeviceSupportChecker : MonoBehaviour
 {

@@ -29,6 +29,15 @@ ARKit対応のiOSデバイス、または、ARCore対応のAndroidデバイス�
 
 ![ARFoundationChecker](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker.jpg)
 
+## Usage
+
+- iOSの場合
+   - Unityプロジェクトを開く -> Build Settings -> PlatformでiOSを選択 -> Build -> 生成されたXcodeプロジェクトを開く -> Run
+   - Signing情報はUnity、または、Xcodeで適宜設定
+   - ARKit非対応デバイスは、XcodeでRunした時点にエラーとなる
+- Androidの場合
+   - Unityプロジェクトを開く -> Build Settings -> PlatformでAndroidを選択 -> Build And Run
+
 ## Requirement
 
 - Unity 2019.2.17f1

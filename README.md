@@ -24,7 +24,7 @@ After checking the status of the AR session, displays the following message.
 
 ### iOS
 
-1. Open Your Unity project  
+1. Open this Unity project  
 2. Build Settings
 3. Switch Platform (iOS)
 4. Build
@@ -36,7 +36,7 @@ After checking the status of the AR session, displays the following message.
 
 ### Android
 
-1. Open Your Unity project
+1. Open this Unity project
 2. Build Settings
 3. Switch Platform (Android)
 4. Build And Run

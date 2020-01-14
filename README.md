@@ -24,22 +24,26 @@ After checking the status of the AR session, displays the following message.
 
 ### iOS
 
-1. Open this Unity project  
-2. Build Settings
-3. Switch Platform (iOS)
-4. Build
-5. Open the generated Xcode project  
-6. Run
+1. Clone or download this repository
+2. Open the Unity project
+3. Build Settings
+4. Switch Platform (iOS)
+5. Build
+6. Open the generated Xcode project  
+7. Connect iOS device to Mac
+8. Run
 
 - Set proper signature information in Unity or Xcode
 - ARKit-incompatible devices fail to install apps when running Xcode
 
 ### Android
 
-1. Open this Unity project
-2. Build Settings
-3. Switch Platform (Android)
-4. Build And Run
+1. Clone or download this repository
+2. Open the Unity project
+3. Build Settings
+4. Switch Platform (Android)
+5. Connect Android device to Mac/PC
+6. Build And Run
 
 ## Requirement
 

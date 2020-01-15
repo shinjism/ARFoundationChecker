@@ -59,7 +59,7 @@ After checking the status of the AR session, displays the following message.
 ![ARFoundationChecker-05](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-05_Android.jpg)
 6. Open Other Settings menu and set your Package Name  
 ![ARFoundationChecker-06](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-06_Android.jpg)
-7. Connect Android device to Mac/PC and click Build And Run button  
+7. Back to Build Settings panel, connect Android device to Mac/PC and click Build And Run button  
 ![ARFoundationChecker-07](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-07_Android.jpg)
 
 ## Requirement

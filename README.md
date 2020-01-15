@@ -25,30 +25,34 @@ After checking the status of the AR session, displays the following message.
 ### iOS
 
 1. Clone or download repository  
-![Clone or download repository](https://raw.githubusercontent.com/shinjism/Screenshot/master/Clone%20or%20download%20repository.jpg)
+![ARFoundationChecker-01](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-01.jpg)
 2. Open cloned or downloaded Unity project  
-![Open cloned or downloaded Unity project](https://raw.githubusercontent.com/shinjism/Screenshot/master/Open%20cloned%20or%20downloaded%20Unity%20project.jpg)
+![ARFoundationChecker-02](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-02.jpg)
 3. Open Build Settings panel  
-![Open Build Settings panel](https://raw.githubusercontent.com/shinjism/Screenshot/master/Open%20Build%20Settings%20panel.jpg)
-4. Select iOS as build platform and click Switch Platform button  
-![Select iOS as build platform and click Switch Platform button](https://raw.githubusercontent.com/shinjism/Screenshot/master/Select%20iOS%20as%20build%20platform%20and%20click%20Switch%20Platform%20button.jpg)
-5. Check Development Build and click Build button  
-![Check Development Build and click Build button](https://raw.githubusercontent.com/shinjism/Screenshot/master/Check%20Development%20Build%20and%20click%20Build%20button.jpg)
+![ARFoundationChecker-03](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-03.jpg)
+4. Select iOS as build platform, check Development Build and click Switch Platform button  
+![ARFoundationChecker-04](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-04_iOS.jpg)
+5. Click Build button  
+![ARFoundationChecker-05](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-05_iOS.jpg)
 6. Open generated Xcode project  
-![Open generated Xcode project](https://raw.githubusercontent.com/shinjism/Screenshot/master/Open%20generated%20Xcode%20project.jpg)
+![ARFoundationChecker-06](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-06_iOS.jpg)
 7. Select a development team in Project Editor  
-![Select a development team in Project Editor](https://raw.githubusercontent.com/shinjism/Screenshot/master/Select%20a%20development%20team%20in%20Project%20Editor.jpg)
+![ARFoundationChecker-07](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-07_iOS.jpg)
 8. Connect iOS device to Mac, select connected iOS device and click Run button (Notice: ARKit-incompatible devices fail to install apps when running Xcode)  
-![Connect iOS device to Mac, select connected iOS device and click Run button](https://raw.githubusercontent.com/shinjism/Screenshot/master/Connect%20iOS%20device%20to%20Mac%2C%20select%20connected%20iOS%20device%20and%20click%20Run%20button.jpg)
+![ARFoundationChecker-08](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-08_iOS.jpg)
 
 ### Android
 
-1. Clone or download this repository
-2. Open the Unity project
-3. Build Settings
-4. Switch Platform (Android)
-5. Connect Android device to Mac/PC
-6. Build And Run
+1. Clone or download repository  
+![ARFoundationChecker-01](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-01.jpg)
+2. Open cloned or downloaded Unity project  
+![ARFoundationChecker-02](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-02.jpg)
+3. Open Build Settings panel  
+![ARFoundationChecker-03](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-03.jpg)
+4. Select Android as build platform, check Development Build and click Switch Platform button  
+![ARFoundationChecker-04](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-04_Android.jpg)
+5. Connect Android device to Mac/PC and click Build button  
+![ARFoundationChecker-05](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-05_Android.jpg)
 
 ## Requirement
 

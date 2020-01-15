@@ -32,14 +32,18 @@ After checking the status of the AR session, displays the following message.
 ![ARFoundationChecker-03](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-03.jpg)
 4. Select iOS as build platform, check Development Build and click Switch Platform button  
 ![ARFoundationChecker-04](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-04_iOS.jpg)
-5. Click Build button  
+5. Click Player Settings button  
 ![ARFoundationChecker-05](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-05_iOS.jpg)
-6. Open generated Xcode project  
+6. Open Other Settings menu and set your Bundle Identifier  
 ![ARFoundationChecker-06](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-06_iOS.jpg)
-7. Select a development team in Project Editor  
+7. Back to Build Settings panel and click Build button  
 ![ARFoundationChecker-07](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-07_iOS.jpg)
-8. Connect iOS device to Mac, select connected iOS device and click Run button (Notice: ARKit-incompatible devices fail to install apps when running Xcode)  
+8. Open generated Xcode project  
 ![ARFoundationChecker-08](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-08_iOS.jpg)
+9. Select a development team in Project Editor  
+![ARFoundationChecker-09](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-09_iOS.jpg)
+10. Connect iOS device to Mac, select connected iOS device and click Run button (Notice: ARKit-incompatible devices fail to install apps when running Xcode)  
+![ARFoundationChecker-10](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-10_iOS.jpg)
 
 ### Android
 
@@ -51,8 +55,12 @@ After checking the status of the AR session, displays the following message.
 ![ARFoundationChecker-03](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-03.jpg)
 4. Select Android as build platform, check Development Build and click Switch Platform button  
 ![ARFoundationChecker-04](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-04_Android.jpg)
-5. Connect Android device to Mac/PC and click Build And Run button  
+5. Click Player Settings button  
 ![ARFoundationChecker-05](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-05_Android.jpg)
+6. Open Other Settings menu and set your Package Name  
+![ARFoundationChecker-06](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-06_Android.jpg)
+7. Connect Android device to Mac/PC and click Build And Run button  
+![ARFoundationChecker-07](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-07_Android.jpg)
 
 ## Requirement
 

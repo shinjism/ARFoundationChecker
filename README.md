@@ -51,7 +51,7 @@ After checking the status of the AR session, displays the following message.
 ![ARFoundationChecker-03](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-03.jpg)
 4. Select Android as build platform, check Development Build and click Switch Platform button  
 ![ARFoundationChecker-04](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-04_Android.jpg)
-5. Connect Android device to Mac/PC and click Build button  
+5. Connect Android device to Mac/PC and click Build And Run button  
 ![ARFoundationChecker-05](https://raw.githubusercontent.com/shinjism/Screenshot/master/ARFoundationChecker-05_Android.jpg)
 
 ## Requirement

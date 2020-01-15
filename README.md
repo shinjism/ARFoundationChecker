@@ -25,23 +25,30 @@ After checking the status of the AR session, displays the following message.
 ### iOS
 
 1. Clone or download repository  
-![Clone or download repository](https://raw.githubusercontent.com/shinjism/Screenshot/master/master/Clone%20or%20download%20repository.jpg)
+  
+![Clone or download repository](https://raw.githubusercontent.com/shinjism/Screenshot/master/Clone%20or%20download%20repository.jpg)
 2. Open cloned or downloaded Unity project  
-![Open cloned or downloaded Unity project](https://raw.githubusercontent.com/shinjism/Screenshot/master/master/Open%20cloned%20or%20downloaded%20Unity%20project.jpg)
+  
+![Open cloned or downloaded Unity project](https://raw.githubusercontent.com/shinjism/Screenshot/master/Open%20cloned%20or%20downloaded%20Unity%20project.jpg)
 3. Open Build Settings panel  
-![Open Build Settings panel](https://raw.githubusercontent.com/shinjism/Screenshot/master/master/Open%20Build%20Settings%20panel.jpg)
+  
+![Open Build Settings panel](https://raw.githubusercontent.com/shinjism/Screenshot/master/Open%20Build%20Settings%20panel.jpg)
 4. Select iOS as build platform and click Switch Platform button  
-![Select iOS as build platform and click Switch Platform button](https://raw.githubusercontent.com/shinjism/Screenshot/master/master/Select%20iOS%20as%20build%20platform%20and%20click%20Switch%20Platform%20button.jpg)
+  
+![Select iOS as build platform and click Switch Platform button](https://raw.githubusercontent.com/shinjism/Screenshot/master/Select%20iOS%20as%20build%20platform%20and%20click%20Switch%20Platform%20button.jpg)
 5. Check Development Build and click Build button  
-![Check Development Build and click Build button](https://raw.githubusercontent.com/shinjism/Screenshot/master/master/Check%20Development%20Build%20and%20click%20Build%20button.jpg)
+  
+![Check Development Build and click Build button](https://raw.githubusercontent.com/shinjism/Screenshot/master/Check%20Development%20Build%20and%20click%20Build%20button.jpg)
 6. Open generated Xcode project  
-![Open generated Xcode project](https://raw.githubusercontent.com/shinjism/Screenshot/master/master/Open%20generated%20Xcode%20project.jpg)
+  
+![Open generated Xcode project](https://raw.githubusercontent.com/shinjism/Screenshot/master/Open%20generated%20Xcode%20project.jpg)
 7. Select a development team in Project Editor  
-![Select a development team in Project Editor](https://raw.githubusercontent.com/shinjism/Screenshot/master/master/Select%20a%20development%20team%20in%20Project%20Editor.jpg)
+  
+![Select a development team in Project Editor](https://raw.githubusercontent.com/shinjism/Screenshot/master/Select%20a%20development%20team%20in%20Project%20Editor.jpg)
 8. Connect iOS device to Mac, select connected iOS device and click Run button  
-![Connect iOS device to Mac, select connected iOS device and click Run button](https://raw.githubusercontent.com/shinjism/Screenshot/master/master/Connect%20iOS%20device%20to%20Mac%2C%20select%20connected%20iOS%20device%20and%20click%20Run%20button.jpg)
-
-ARKit-incompatible devices fail to install apps when running Xcode
+  
+![Connect iOS device to Mac, select connected iOS device and click Run button](https://raw.githubusercontent.com/shinjism/Screenshot/master/Connect%20iOS%20device%20to%20Mac%2C%20select%20connected%20iOS%20device%20and%20click%20Run%20button.jpg)  
+Notice: ARKit-incompatible devices fail to install apps when running Xcode
 
 ### Android
 
